@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Invoice</title>
+</head>
+
+<body>
+    <div class="container grid items-center w-full h-screen mx-auto">
+        <div class="grid items-start rounded-lg overflow-hidden shadow-lg">
+            <table class="w-full text-sm rounded-lg">
+                <thead class="bg-slate-200 font-medium  text-slate-600 text-left">
+                    <tr>
+                        <th class="px-6 py-3">KLIEN / INVOICE</th>
+                        <th class="px-6 py-3">JUMLAH</th>
+                        <th class="px-6 py-3">KELUAR / JATUH TEMPO</th>
+                        <th class="px-6 py-3">STATUS </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-6 py-3">
+                            <div class="klienwrapper flex items-center">
+                                <div class="w-8 h-8">
+                                    <img src="./src/img/jennie.jpg" alt="" class="rounded-full block">
+                                </div>
+                                <div class="clientName m-1">
+                                    <p>
+                                        Jennie Black Pink
+                                    </p>
+                                    <p>
+                                        000001
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-3">
+                            <div class="jumlahwrapper">
+                                <p>$20.000</p>
+                                <p>USD</p>
+                            </div>
+                        </td>
+                        <td class="px-6 py-3">
+                            <div class="tempowrapper">
+                                <p>19 agustus 2023</p>
+                                <p>jatuh tempo dalam 2 hari </p>
+                            </div>
+                        </td>
+                        <td class="px-6 py-3">
+                            <div class="statuswrapper ">
+                                <button class="p-1 bg-green-600 text-green-900 rounded-2xl">Lunas</button>
+                            </div>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
