@@ -3,7 +3,8 @@ module.exports = {
   content: ['./index.html',
 './form.html',
 './invoice.html',
-'./grid.html'],
+'./grid.html',
+'./latihanaja.html'],
   theme: {
     extend: {
       backgroundImage : {
