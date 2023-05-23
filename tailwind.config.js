@@ -5,7 +5,8 @@ module.exports = {
 './invoice.html',
 './grid.html',
 './latihanaja.html',
-'./article.html'],
+'./article.html',
+'./gridphone.html',],
   theme: {
     extend: {
       backgroundImage : {
