@@ -6,7 +6,9 @@ module.exports = {
 './grid.html',
 './latihanaja.html',
 './article.html',
-'./gridphone.html',],
+'./gridphone.html',
+'card.html',
+],
   theme: {
     extend: {
       backgroundImage : {
