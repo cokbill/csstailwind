@@ -8,6 +8,7 @@ module.exports = {
 './article.html',
 './gridphone.html',
 'card.html',
+'./absolutecard.html',
 ],
   theme: {
     extend: {
